@@ -15,7 +15,7 @@ botonAdicionar.addEventListener("click",function(event){
         exhibirMensajeErrores(errores);
         return; //este return hace ref. a la función anonima
     }
-
+    //Aggiungo un commento per fini di GITHUB (vedere tracking...)
     var tabla = document.querySelector("#tabla-pacientes");
     tabla.appendChild(pacienteTr);
     form.reset();
